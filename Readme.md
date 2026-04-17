@@ -16,6 +16,10 @@ Current Progress :-
  }
 
 -installed libraries :numpy, tensorflow, nltk ( check requirements.txt )
--while understanding different libraries and frameworks i came up with an analogy for diffrenciating between libraries and frameworks: imagine a building/ apartment complex ( this is your codebase ), here you have multiple utilities ( libraries) like lift, water filter, thermostat etc. and then you have the whole elctric circuit/wiring ( framework) that connects everything together and makes the building function as a whole. so basically the framework is the structure that calls the code and libraries are chunks of code with independent use wheras the building is your codebase functioning with both.
+<!-- -while understanding different libraries and frameworks i came up with an analogy for diffrenciating between libraries and frameworks: imagine a building/ apartment complex ( this is your codebase ), here you have multiple utilities ( libraries) like lift, water filter, thermostat etc. and then you have the whole elctric circuit/wiring ( framework) that connects everything together and makes the building function as a whole. so basically the framework is the structure that calls the code and libraries are chunks of code with independent use wheras the building is your codebase functioning with both. -->
 
-created main python file new.py
+-created main python file new.py
+-imported all the libraries in new.py
+-made lemmatizer using nltk.stem.WordNetLemmatizer
+-imported json and loaded the intents.json file
+-printed the loaded json file
